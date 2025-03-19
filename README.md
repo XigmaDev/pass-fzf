@@ -22,3 +22,10 @@ It's a script that enhances the pass with fzf.
   ```bash
   bindkey -s ^p "pass-fzf\n"
   ```
+
+## Installation
+
+```bash
+ sudo curl -SfL0 https://raw.githubusercontent.com/xigmadev/pass-fzf/main/pass-fzf -o /usr/local/bin/pass-fzf && sudo chmod +x /usr/local/bin/pass-fzf
+
+```
