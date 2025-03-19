@@ -18,9 +18,23 @@ It's a script that enhances the pass with fzf.
 
   ```
 
+- Copy OTP to clipboard:
+
+  ```bash
+  pass-fzf --otp
+
+  ```
+
 - Add key binding (Ctrl + p) in .zshrc file
+
   ```bash
   bindkey -s ^p "pass-fzf\n"
+
+  bindkey -s ^o "pass-fzf --otp\n"
+  ```
+
+  ```
+
   ```
 
 ## Installation
